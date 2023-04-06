@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>JjustTour</title>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>JjustTour</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">Contact us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <section class="main_heading my-5">
+        <div class="text-center">
+            <h1 class="display-4">
+                About Us
+            </h1>
+            <hr class="w-25 mx-auto" />
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6 col-lg-6 col-12 col-xxl-6">
+                    <figure>
+                        <img src="photo/437185.jpg" alt="" class="img-fluid about_img">
+                    </figure>
+                </div>
+
+                <div
+                    class="col-lg-6 col-lg-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column">
+                    <h1>
+                        My Journey
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias dicta aspernatur tenetur
+                        laudantium quisquam excepturi quibusdam incidunt nam obcaecati? Molestias, tempora non. Impedit
+                        porro molestias quibusdam atque minima magnam beatae facilis necessitatibus, consectetur
+                        obcaecati? Odio a quaerat repellat eum aliquid numquam dolorem itaque mollitia facere iure
+                        quibusdam at minima perferendis, quisquam ea quod dignissimos necessitatibus veritatis velit.
+                        Ducimus, tempore
+                    </p>
+                    <!-- <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip"
+                        data-bs-placement="right" title="Who Are We">Check more</button> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div id="navbar-example" style="position: relative;">
+
+                <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                    <a class="navbar-brand" href="#">JjustTour</a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading1">History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2">@Now</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">More</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#scrollspyHeading3">About 2nd person</a></li>
+                                <li><a class="dropdown-item" href="#scrollspyHeading4">About 3rd person</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#scrollspyHeading5">About Management</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+                    tabindex="0" style="height: 300px; overflow-y: scroll;">
+                    <h4 id="scrollspyHeading1">History</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, et animi consequatur
+                        explicabo eos reiciendis nisi quae unde, accusamus voluptates nulla iste nostrum nemo ullam
+                        recusandae, dolores totam cumque possimus repudiandae quis maxime voluptatibus officiis. Vitae
+                        beatae corporis labore earum, optio et maxime in ducimus aspernatur assumenda voluptatem
+                        tenetur, tempore non quaerat nulla provident dolores aliquam sunt inventore dicta accusamus.
+                        Quibusdam nam et quos, possimus doloribus maiores! Illum sapiente molestiae ea perspiciatis,
+                        animi hic obcaecati fuga eaque voluptatibus aperiam, aspernatur quaerat, provident unde dolores!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos ea ullam placeat enim,
+                        perspiciatis quae inventore. Optio soluta labore odit id maiores consectetur quae dignissimos,
+                        necessitatibus fugiat officia saepe porro velit nostrum vero quasi ipsa rem fuga est cupiditate
+                        tempora et doloremque maxime provident. Quo error tenetur quibusdam! Quo corrupti, molestiae
+                        veniam laborum molestias ea amet? Repellendus quisquam vitae harum dolor molestias quam odit
+                        nemo esse beatae accusamus quis, repudiandae, dicta dignissimos corrupti modi magni illo hic
+                        doloribus consectetur. Accusamus inventore a minima.
+
+                    </p>
+                    <h4 id="scrollspyHeading2">@now</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, et animi consequatur
+                        explicabo eos reiciendis nisi quae unde, accusamus voluptates nulla iste nostrum nemo ullam
+                        recusandae, dolores totam cumque possimus repudiandae quis maxime voluptatibus officiis. Vitae
+                        beatae corporis labore earum, optio et maxime in ducimus aspernatur assumenda voluptatem
+                        tenetur, tempore non quaerat nulla provident dolores aliquam sunt inventore dicta accusamus.
+                        Quibusdam nam et quos, possimus doloribus maiores! Illum sapiente molestiae ea perspiciatis,
+                        animi hic obcaecati fuga eaque Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                        quos ea ullam placeat enim, perspiciatis quae inventore. Optio soluta labore odit id maiores
+                        consectetur quae dignissimos, necessitatibus fugiat officia saepe porro velit nostrum vero quasi
+                        ipsa rem fuga est cupiditate tempora et doloremque maxime provident. Quo error tenetur
+                        quibusdam! Quo corrupti, molestiae veniam laborum molestias ea amet? Repellendus quisquam vitae
+                        harum dolor molestias quam odit nemo esse beatae accusamus quis, repudiandae, dicta dignissimos
+                        corrupti modi magni illo hic doloribus consectetur. Accusamus inventore a minima. voluptatibus
+                        aperiam, aspernatur quaerat, provident unde dolores!</p>
+                    <h4 id="scrollspyHeading3">@CEO</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, et animi consequatur
+                        explicabo eos reiciendis nisi quae unde, accusamus voluptates nulla iste nostrum nemo ullam
+                        recusandae, dolores totam cumque possimus repudiandae quis maxime voluptatibus officiis. Vitae
+                        beatae corporis labore earum, optio et maxime in ducimus aspernatur assumenda voluptatem
+                        tenetur, tempore non quaerat nulla provident dolores aliquam sunt inventore dicta accusamus.
+                        Quibusdam nam et quos, possimus doloribus maiores! Illum sapiente molestiae ea perspiciatis,
+                        animi hic obcaecati fuga eaque voluptatibus aperiam, aspernatur quaerat, provident unde dolores!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos ea ullam placeat enim,
+                        perspiciatis quae inventore. Optio soluta labore odit id maiores consectetur quae dignissimos,
+                        necessitatibus fugiat officia saepe porro velit nostrum vero quasi ipsa rem fuga est cupiditate
+                        tempora et doloremque maxime provident. Quo error tenetur quibusdam! Quo corrupti, molestiae
+                        veniam laborum molestias ea amet? Repellendus quisquam vitae harum dolor molestias quam odit
+                        nemo esse beatae accusamus quis, repudiandae, dicta dignissimos corrupti modi magni illo hic
+                        doloribus consectetur. Accusamus inventore a minima.</p>
+                    <h4 id="scrollspyHeading4">@Director</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, et animi consequatur
+                        explicabo eos reiciendis nisi quae unde, accusamus voluptates nulla iste nostrum nemo ullam
+                        recusandae, dolores totam cumque possimus repudiandae quis maxime voluptatibus officiis. Vitae
+                        beatae corporis labore earum, optio et maxime in ducimus aspernatur assumenda voluptatem
+                        tenetur, tempore non quaerat nulla provident dolores aliquam sunt inventore dicta accusamus.
+                        Quibusdam nam et quos, possimus doloribus maiores! Illum sapiente molestiae ea perspiciatis,
+                        animi hic obcaecati fuga eaque voluptatibus aperiam, aspernatur quaerat, provident unde dolores!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos ea ullam placeat enim,
+                        perspiciatis quae inventore. Optio soluta labore odit id maiores consectetur quae dignissimos,
+                        necessitatibus fugiat officia saepe porro velit nostrum vero quasi ipsa rem fuga est cupiditate
+                        tempora et doloremque maxime provident. Quo error tenetur quibusdam! Quo corrupti, molestiae
+                        veniam laborum molestias ea amet? Repellendus quisquam vitae harum dolor molestias quam odit
+                        nemo esse beatae accusamus quis, repudiandae, dicta dignissimos corrupti modi magni illo hic
+                        doloribus consectetur. Accusamus inventore a minima.</p>
+                    <h4 id="scrollspyHeading5">About Management</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, et animi consequatur
+                        explicabo eos reiciendis nisi quae unde, accusamus voluptates nulla iste nostrum nemo ullam
+                        recusandae, dolores totam cumque possimus repudiandae quis maxime voluptatibus officiis. Vitae
+                        beatae corporis labore earum, optio et maxime in ducimus aspernatur assumenda voluptatem
+                        tenetur, tempore non quaerat nulla provident dolores aliquam sunt inventore dicta accusamus.
+                        Quibusdam nam et quos, possimus doloribus maiores! Illum sapiente molestiae ea perspiciatis,
+                        animi hic obcaecati fuga eaque voluptatibus aperiam, aspernatur quaerat, provident unde dolores
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos ea ullam placeat enim,
+                        perspiciatis quae inventore. Optio soluta labore odit id maiores consectetur quae dignissimos,
+                        necessitatibus fugiat officia saepe porro velit nostrum vero quasi ipsa rem fuga est cupiditate
+                        tempora et doloremque maxime provident. Quo error tenetur quibusdam! Quo corrupti, molestiae
+                        veniam laborum molestias ea amet? Repellendus quisquam vitae harum dolor molestias quam odit
+                        nemo esse beatae accusamus quis, repudiandae, dicta dignissimos corrupti modi magni illo hic
+                        doloribus consectetur. Accusamus inventore a minima.!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="bg-secondary text-center text-white mt-3">
+
+        © Copyright 2011-2021 www.JjustTour.com. All rights reserved. Developed by JjustTour.
+    </footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar-example'
+        })
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+</body>
+
+</html>
